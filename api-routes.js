@@ -8,9 +8,9 @@ router.get('/', function (req, res) {
         message: 'Welcome to RESTHub crafted with love!',
     });
 });
-// Import contact controller
+// Import quote controller
 var quoteController = require('./quoteController');
-// Contact routes
+// Quote routes
 router.route('/quotes')
     .get(quoteController.index)
     .post(quoteController.new);
