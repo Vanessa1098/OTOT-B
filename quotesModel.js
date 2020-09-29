@@ -16,7 +16,7 @@ var quoteSchema = mongoose.Schema({
         default: Date.now
     }
 });
-// Export Contact model
+// Export Quote model
 var Quote = module.exports = mongoose.model('quote', quoteSchema);
 module.exports.get = function (callback, limit) {
     Quote.find(callback).limit(limit);

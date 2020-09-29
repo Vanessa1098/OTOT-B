@@ -67,7 +67,7 @@ exports.update = function (req, res) {
 exports.delete = function (req, res) {
     Quote.remove({
         _id: req.params.quote_id
-    }, function (err, contact) {
+    }, function (err, quote) {
         if (err)
             res.send(err);
         res.json({
