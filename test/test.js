@@ -1,7 +1,7 @@
 process.env.NODE_ENV = 'test';
 
 let mongoose = require("mongoose");
-let Quote = require('../model/quote');
+let Quote = require('../my-app-DarchetypeArtifaceId=maven-archetype-quickstart/src/main/java/model/quote');
 
 let chai = require('chai');
 let chaiHttp = require('chai-http');
