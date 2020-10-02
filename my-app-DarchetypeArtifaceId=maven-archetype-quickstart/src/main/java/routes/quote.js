@@ -2,10 +2,10 @@ let mongoose = require('mongoose');
 let Quote = require('../model/quote');
 
 /*
- * GET /book route to retrieve all the books.
+ * GET /quote route to retrieve all the quotes.
  */
 function getQuotes(req, res) {
-    //Query the DB and if no errors, send all the books
+    //Query the DB and if no errors, send all the quotes
     let query = Quote.find({});
     query.exec((err, quotes) => {
         if(err) res.send(err);
@@ -15,10 +15,10 @@ function getQuotes(req, res) {
 }
 
 /*
- * POST /book to save a new book.
+ * POST /quote to save a new quote.
  */
 function postQuote(req, res) {
-    //Creates a new book
+    //Creates a new quote
     var newQuote = new Quote(req.body);
     //Save it into the DB.
     newQuote.save((err,quote) => {
@@ -32,7 +32,7 @@ function postQuote(req, res) {
 }
 
 /*
- * GET /book/:id route to retrieve a book given its id.
+ * GET /quote/:id route to retrieve a quote given its id.
  */
 function getQuote(req, res) {
     Quote.findById(req.params.id, (err, quote) => {
@@ -43,7 +43,7 @@ function getQuote(req, res) {
 }
 
 /*
- * DELETE /book/:id to delete a book given its id.
+ * DELETE /quote/:id to delete a quote given its id.
  */
 function deleteQuote(req, res) {
     Quote.remove({_id : req.params.id}, (err, result) => {
@@ -52,7 +52,7 @@ function deleteQuote(req, res) {
 }
 
 /*
- * PUT /book/:id to updatea a book given its id
+ * PUT /quote/:id to update a a quote given its id
  */
 function updateQuote(req, res) {
     Quote.findById({_id: req.params.id}, (err, quote) => {

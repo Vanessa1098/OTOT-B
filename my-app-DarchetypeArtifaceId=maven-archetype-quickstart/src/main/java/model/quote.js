@@ -1,7 +1,7 @@
 let mongoose = require('mongoose');
 let Schema = mongoose.Schema;
 
-//book schema definition
+//quote schema definition
 let QuoteScheme = new Schema(
     {
         quote: {
@@ -32,5 +32,5 @@ QuoteScheme.pre('save', next => {
     next();
 });
 
-//Exports the BookSchema for use elsewhere.
+//Exports the QuoteSchema for use elsewhere.
 module.exports = mongoose.model('quote', QuoteScheme);

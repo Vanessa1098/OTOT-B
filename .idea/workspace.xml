@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9d423868-e7fd-4452-abcb-5a8f154ade6a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/quote.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app-DarchetypeArtifaceId=maven-archetype-quickstart/src/main/java/model/quote.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/quote.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app-DarchetypeArtifaceId=maven-archetype-quickstart/src/main/java/routes/quote.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +77,7 @@
       <workItem from="1601488304259" duration="15000" />
       <workItem from="1601629607027" duration="8673000" />
       <workItem from="1601641506961" duration="1661000" />
-      <workItem from="1601643526243" duration="6554000" />
+      <workItem from="1601643526243" duration="7152000" />
     </task>
     <servers />
   </component>

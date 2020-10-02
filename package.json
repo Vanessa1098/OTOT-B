@@ -1,7 +1,7 @@
 {
-  "name": "bookstore",
+  "name": "quotehub",
   "version": "1.0.0",
-  "description": "A bookstore API",
+  "description": "A quotehub API",
   "main": "server.js",
   "author": "Sam",
   "license": "ISC",
