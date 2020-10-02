@@ -52,4 +52,46 @@ describe('Quotes', () => {
         });
 
     });
+
+    /*
+  * Test the /PUT/:id route
+  */
+    describe('/PUT/:id quote', () => {
+        it('it should UPDATE a quote given the id', (done) => {
+            let quote = new Quote({quote: "Follow your dreams, they know the way", author: "Somebody", category: "encouragement"})
+            quote.save((err, quote) => {
+                chai.request(server)
+                    .put('/quote/' + quote.id)
+                    .send({quote: "Follow your dreams, they know the way", author: "Nobody", category: "encouragement"})
+                    .end((err, res) => {
+                        res.should.have.status(200);
+                        res.body.should.be.a('object');
+                        res.body.should.have.property('message').eql('Quote updated!');
+                        res.body.quote.should.have.property('author').eql("Nobody");
+                        done();
+                    });
+            });
+        });
+    });
+
+    /*
+  * Test the /DELETE/:id route
+  */
+    describe('/DELETE/:id quote', () => {
+        it('it should DELETE a quote given the id', (done) => {
+            let quote = new Quote({quote: "Follow your dreams, they know the way", author: "Somebody", category: "encouragement"})
+            quote.save((err, quote) => {
+                chai.request(server)
+                    .delete('/quote/' + quote.id)
+                    .end((err, res) => {
+                        res.should.have.status(200);
+                        res.body.should.be.a('object');
+                        res.body.should.have.property('message').eql('Quote successfully deleted!');
+                        res.body.result.should.have.property('ok').eql(1);
+                        res.body.result.should.have.property('n').eql(1);
+                        done();
+                    });
+            });
+        });
+    });
 });
