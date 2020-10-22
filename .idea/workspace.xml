@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d423868-e7fd-4452-abcb-5a8f154ade6a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo-api/handler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-api/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-api/handler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-api/serverless.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/todo-api/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/handler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serverless.yml" beforeDir="false" afterPath="$PROJECT_DIR$/todo-api/serverless.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/quote.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes-api/quote.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-api/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-api/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-api/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-api/serverless.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,11 +48,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\xjkwa\Documents\NUS\2021 S1\CS3219 Software Engineering Principles and Patterns\Assignment\B\B1\routes-api" />
       <recent name="C:\Users\xjkwa\Documents\NUS\2021 S1\CS3219 Software Engineering Principles and Patterns\Assignment\B\B1\test" />
       <recent name="C:\Users\xjkwa\Documents\NUS\2021 S1\CS3219 Software Engineering Principles and Patterns\Assignment\B\B1" />
       <recent name="C:\Users\xjkwa\Documents\NUS\2021 S1\CS3219 Software Engineering Principles and Patterns\Assignment\B\B1\my-app-DarchetypeArtifaceId=maven-archetype-quickstart\src\main\java" />
       <recent name="C:\Users\xjkwa\Documents\NUS\2021 S1\CS3219 Software Engineering Principles and Patterns\Assignment\B\B1\test\java" />
-      <recent name="C:\Users\xjkwa\Documents\NUS\2021 S1\CS3219 Software Engineering Principles and Patterns\Assignment\B\B1\src\main\java" />
     </key>
   </component>
   <component name="RunManager">
@@ -96,7 +95,7 @@
       <workItem from="1601643526243" duration="11070000" />
       <workItem from="1603163813218" duration="53000" />
       <workItem from="1603343328558" duration="2180000" />
-      <workItem from="1603347574285" duration="937000" />
+      <workItem from="1603347574285" duration="1464000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,10 @@
+service: users-api #Update this with the relevant service name
+custom:
+  stage: ${opt:stage, self:provider.stage}
+provider:
+  name: aws
+  runtime: nodejs10.x
+  region: eu-west-1
+functions:
+  hello:
+    handler: handler.hello
