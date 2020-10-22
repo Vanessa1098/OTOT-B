@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d423868-e7fd-4452-abcb-5a8f154ade6a" name="Default Changelist" comment="" />
+    <list default="true" id="9d423868-e7fd-4452-abcb-5a8f154ade6a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +87,8 @@
       <workItem from="1601643526243" duration="11070000" />
       <workItem from="1603163813218" duration="53000" />
       <workItem from="1603343328558" duration="2180000" />
-      <workItem from="1603347574285" duration="1794000" />
+      <workItem from="1603347574285" duration="2464000" />
+      <workItem from="1603350985535" duration="65000" />
     </task>
     <servers />
   </component>
@@ -101,10 +104,10 @@
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
     <state x="2408" y="101" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1601656599836" />
-    <state x="2469" y="167" key="FileChooserDialogImpl" timestamp="1603163864176">
+    <state x="2469" y="167" key="FileChooserDialogImpl" timestamp="1603350043371">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
-    <state x="2469" y="167" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1603163864176" />
+    <state x="2469" y="167" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1603350043371" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1601650387494">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
