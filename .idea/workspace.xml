@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d423868-e7fd-4452-abcb-5a8f154ade6a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverless.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +33,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/my-app-DarchetypeArtifactId=maven-archetype-quickstart" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -85,7 +87,9 @@
       <workItem from="1601488304259" duration="15000" />
       <workItem from="1601629607027" duration="8673000" />
       <workItem from="1601641506961" duration="1661000" />
-      <workItem from="1601643526243" duration="10186000" />
+      <workItem from="1601643526243" duration="11070000" />
+      <workItem from="1603163813218" duration="53000" />
+      <workItem from="1603343328558" duration="1817000" />
     </task>
     <servers />
   </component>
@@ -101,10 +105,10 @@
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
     <state x="2408" y="101" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1601656599836" />
-    <state x="2469" y="167" key="FileChooserDialogImpl" timestamp="1601655608383">
+    <state x="2469" y="167" key="FileChooserDialogImpl" timestamp="1603163864176">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
-    <state x="2469" y="167" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1601655608383" />
+    <state x="2469" y="167" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1603163864176" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1601650387494">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
