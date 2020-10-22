@@ -36,6 +36,6 @@ jobs:
       name: "Deploy Test Experiences API"
       if: type = push AND branch = master
       env:
-        - SERVICE_PATH="todo-api"
+        - SERVICE_PATH="users-api"
         - STAGE_NAME=prod
         - *PRODUCTION_ENV
