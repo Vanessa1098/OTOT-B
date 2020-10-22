@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d423868-e7fd-4452-abcb-5a8f154ade6a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/quote.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes-api/quote.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-api/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-api/handler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-api/serverless.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-api/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-api/handler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-api/serverless.yml" beforeDir="false" />
-    </list>
+    <list default="true" id="9d423868-e7fd-4452-abcb-5a8f154ade6a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +85,7 @@
       <workItem from="1601643526243" duration="11070000" />
       <workItem from="1603163813218" duration="53000" />
       <workItem from="1603343328558" duration="2180000" />
-      <workItem from="1603347574285" duration="1464000" />
+      <workItem from="1603347574285" duration="1794000" />
     </task>
     <servers />
   </component>
