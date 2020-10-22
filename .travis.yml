@@ -26,14 +26,14 @@ jobs:
     # master branch deploys to the 'prod' stage
     - <<: *DEPLOY_SERVICE_JOB
       name: "Deploy Test Users API"
-      if: type = push AND branch = main
+      if: type = push AND branch = master
       env:
         - SERVICE_PATH="users-api"
         - STAGE_NAME=prod
         - *PRODUCTION_ENV
     - <<: *DEPLOY_SERVICE_JOB
       name: "Deploy Test Experiences API"
-      if: type = push AND branch = main
+      if: type = push AND branch = master
       env:
         - SERVICE_PATH="todo-api"
         - STAGE_NAME=prod
